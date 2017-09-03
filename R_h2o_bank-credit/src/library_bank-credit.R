@@ -4,10 +4,13 @@ wants <- c(
   'caret' # sample folds
 , 'data.table' # manage data in `data table` format
 , 'dummies' # data processing
-#, 'devtools' # ?
+, 'devtools' # allows `install_github`
 
 , 'ggplot2' # advanced graphics
 , 'gmodels' # cross tables: bivariate
+
+, 'h2o' # modelling
+
 , 'randomForest' # modelling
 
 , 'ROC' # model evaluation
